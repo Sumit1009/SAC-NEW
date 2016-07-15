@@ -168,7 +168,7 @@
 						name="password" placeholder="New Password" type="password"
 						required /> <input class="form-control" name="repassword"
 						placeholder="Re-Enter Password" type="password" required /> <select
-						class="form-control" required name="service">
+						class="form-control" required name="services">
 
 						<option value="" selected="selected" disabled="disabled">--Service--</option>
 						<option value="Technology">Technology</option>

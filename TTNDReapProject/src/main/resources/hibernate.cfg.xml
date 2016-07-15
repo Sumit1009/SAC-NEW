@@ -22,6 +22,7 @@
 		<mapping class="com.ttnd.reap.hibernate.model.Services" />
 		<mapping class="com.ttnd.reap.hibernate.model.Badges" />
 		<mapping class="com.ttnd.reap.hibernate.model.BadgesRemaining" />
+		<mapping class="com.ttnd.reap.hibernate.model.BadgesEarned" />
 		<mapping class="com.ttnd.reap.hibernate.model.Recognise"/>
 
   

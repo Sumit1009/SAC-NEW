@@ -53,7 +53,8 @@ public class MyController {
 	public String registerData(Model model, @ModelAttribute("registerBean") RegisterBean registerBean) {
 		System.out.println(registerService);
 		System.out.println(":::::::::::::::::::::::::::::::::::::::::::");
-		if (registerService.register(registerBean.getFirst_name(), registerBean.getLast_name(), registerBean.getDob(),
+	
+		if (registerService.register(registerBean.getFirstName(), registerBean.getLastName(), registerBean.getDob(),
 				registerBean.getEmail(), registerBean.getPassword(), registerBean.getGender(),
 				registerBean.getServices(), registerBean.getPractice(), registerBean.getRole()))
 			{
